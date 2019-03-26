@@ -1,0 +1,11 @@
+.helpbox{
+  background: rgb(253, 232, 232);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 35rpx;
+}
+.goback{width: 100%;padding: 50px 0px;}
+.btn_primary{background: #1AAD19;color: #fff;}
+li{display: block;line-height: 50rpx;}
+.copyright{font-size: 28rpx;color: #888; margin: 10px; padding: 20px 0;}

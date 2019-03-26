@@ -1,0 +1,10 @@
+.box{width: 96%;margin:8px;}
+.table {width: 100%; border:1px solid #dadada;border-right:0px;border-bottom: 0px;}
+.tr {  width:100%;  display: flex;  justify-content: space-between;}
+.tr:nth-child(2n){background: #eee}
+.th,.td { width:100%; padding: 10px;  border-bottom: 1px solid #dadada;border-right: 1px solid #dadada;  text-align: center;}
+.th {  font-weight: 400;  background-color: #4a87d6;color: #fff}
+.tdcolor{color: red;}
+.goback{width:100%;padding:40rpx 0rpx;}
+.btn_primary{background: #1AAD19;color: #fff;}
+.help{position: absolute;left: 150px; bottom:10px;font-size: 14px;color: #aaa;text-align: center;}

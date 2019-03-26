@@ -1,0 +1,88 @@
+<!--查询列表页-->
+<view class='box'>
+  <view class="table">
+    <view class="tr">
+      <view class="th">{{dates}}月/工资绩效明细表</view>
+    </view>
+    <view class="tr">
+      <view class='td'>姓名 </view>
+      <view class="td"> {{name}} </view>
+    </view>
+
+    <view class="tr">
+      <view class='td'>手机号 </view>
+      <view class="td">{{userphone}} </view>
+    </view>
+    
+    <view class="tr">
+      <view class='td'>类别</view>
+      <view class="td"> {{job}} </view>
+    </view>
+
+    <view class="tr">
+      <view class='td'>专/兼职教师 </view>
+      <view class="td"> {{partTimeJob}} </view>
+    </view>
+
+    <view class="tr">
+      <view class='td'>奖励性绩效标准 </view>
+      <view class="td"> {{rewardStandard}} </view>
+    </view>
+
+    <view class="tr">
+      <view class='td'>基本工资 </view>
+      <view class="td"> {{basicStandard}} </view>
+    </view>
+
+    <view class="tr">
+      <view class='td'>教学工作量 </view>
+      <view class="td"> {{facultyLoad}} </view>
+    </view>
+
+    <view class="tr">
+      <view class='td'>课时标准 </view>
+      <view class="td"> {{classStandard}} </view>
+    </view>
+
+    <view class="tr">
+      <view class='td'>教学绩效 </view>
+      <view class="td"> {{teachingPerf}} </view>
+    </view>
+
+    <view class="tr">
+      <view class='td'>行政绩效 </view>
+      <view class="td"> {{adminPerf}} </view>
+    </view>
+
+    <view class="tr">
+      <view class='td'>岗位系数 </view>
+      <view class="td"> {{postCoe}} </view>
+    </view>
+
+    <view class="tr">
+      <view class='td'>岗位绩效 </view>
+      <view class="td"> {{jobPerf}} </view>
+    </view>
+
+    <view class="tr">
+      <view class='td'>非工作日绩效 </view>
+      <view class="td"> {{nonWorkPerf}} </view>
+    </view>
+
+    <view class="tr">
+      <view class='td'>补发 </view>
+      <view class="td"> {{reissue}} </view>
+    </view>
+
+    <view class="tr">
+      <view class='td'>扣除 </view>
+      <view class="td"> {{deduct}} </view>
+    </view>
+
+    <view class="tr">
+      <view class='td tdcolor'>小计 </view>
+      <view class="td tdcolor"> {{schoolTotal}} </view>
+    </view>
+  </view>
+  <view class="goback"><button class='btn_primary' bindtap="getBack">返回查询页</button></view>
+</view>

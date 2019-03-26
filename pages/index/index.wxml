@@ -1,0 +1,35 @@
+<!--index.wxml-->
+ <view class='userbox'>
+   <!--用户信息-->
+    <view class='header'>
+      <text class="user-motto">{{motto}}</text>
+    <view class='userli'></view>
+      <view class="userinfo-avatar">
+        <open-data  type="userAvatarUrl"></open-data>
+      </view>
+      <view class='wxphone'>用户:{{userphone}}</view>
+    </view>
+  </view>
+          
+  <!--月份选择-->
+  <view class="section">
+    <picker mode="date" value="{{date}}" start="2018-10" end="2023-10" bindchange="bindDateChange" fields="month">
+      <view class="picker">
+        当前月份：<view class='datev'>{{dates}}</view> <view class='changemon'>(点击修改)</view>
+      </view>
+    </picker>
+  </view>
+
+  <!--查询-->
+  <view class="gosearch">
+    <navigator class='btn_primary' url="../wages/wages?dates={{dates}}&&userphone={{userphone}}">点击查询工资</navigator>
+    <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber"></button>
+  </view>
+
+  <!--提示-->
+  <view class="usermotto">
+      <text class="user-motto">{{notice}}</text>
+  </view>
+
+  <!--帮助-->
+  <view class='help' bindtap="gethelp"><text>帮助与详情</text></view>

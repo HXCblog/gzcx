@@ -1,0 +1,82 @@
+/**index.wxss**/
+.container{padding: 28px;}
+.header {
+  position: relative;
+  margin: 0rpx 0 20rpx 50rpx;
+  width: 650rpx;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userli{height:2rpx;width: 70%; border-bottom:1px solid rgb(80, 192, 236);}
+.userinfo-avatar {
+  overflow:hidden;
+  display: block;
+  width: 160rpx;
+  height: 150rpx;
+  margin: 20rpx;
+  margin-top: 50rpx;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.userbox{height: 160px;background: rgb(67, 178, 241);width: 100%;padding: 80rpx 0rpx 20rpx 0rpx;margin-bottom:100rpx; }
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.datev{display: inline-block;color: rgb(250, 112, 19);margin:0rpx 15rpx; }
+.changemon{display: inline-block;font-style: italic;font-size: 32rpx;color: #555;}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 35rpx;
+  border-radius: 50%;
+  border:5rpx solid#f8f8f8;
+}
+
+.userinfo-nickname {
+  color: #fff;
+}
+
+.wxphone{color: rgb(255, 239, 149);font-size: 14px;margin-top:0px;}
+
+.usermotto{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-between;
+  padding:40rpx 0;
+  box-sizing:border-box;
+  font-size: 16px;
+}
+.gosearch{width: 95%;padding: 10px;}
+.btn_primary{
+background: #1AAD19;
+position:relative;
+display:block;
+margin-left:auto;
+margin-right:auto;
+padding-left:14px;
+padding-right:14px;
+box-sizing:border-box;
+font-size:18px;
+text-align:center;
+text-decoration:none;
+line-height:2.55555556;
+border-radius:5px;
+-webkit-tap-highlight-color:transparent;
+overflow:hidden;
+color:#fff;
+}
+.help{position: absolute;left: 150px; bottom:10px;font-size: 14px;color: #aaa;text-align: center;}
+
+.section{
+   background:#ebeeff;
+   margin:20rpx;
+   padding:20rpx;
+   border-radius: 5px;
+}
