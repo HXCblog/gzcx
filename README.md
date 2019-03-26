@@ -5,7 +5,7 @@
 
 1.本小程序需要结合服务端才可使用
 
-2. 克隆到本地
+2.克隆到本地
 
 git clone https://github.com/HXCblog/gzcx.git
 
